@@ -10,6 +10,7 @@ both `antelope` and `antelopes`.)
     antelope rocks out
     
     antelopes rock out
+
 ```
 /antelopes*\s\w+\s\w+/
 ```
@@ -23,6 +24,7 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
 ```
 /[^m][gm]+oat/
 ```
@@ -38,6 +40,10 @@ both `antelope` and `antelopes`.)
   1999-01-20
   
   812-2-10
+
+```
+/[0-9]{1,4}-[0-9]{1,2}-[0-9]{1,2}/
+```
 
 ## State Machines
 
