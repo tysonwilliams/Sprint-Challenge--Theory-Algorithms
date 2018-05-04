@@ -10,6 +10,9 @@ both `antelope` and `antelopes`.)
     antelope rocks out
     
     antelopes rock out
+    ```
+    /antelopes*\s\w+\s\w+/
+    ```
 
 * Regex that matches either of:
 
